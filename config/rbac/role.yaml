@@ -1,0 +1,34 @@
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - jcm.k8s.extension.io.jcm.k8s.extension.io
+  resources:
+  - jcms
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - jcm.k8s.extension.io.jcm.k8s.extension.io
+  resources:
+  - jcms/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - jcm.k8s.extension.io.jcm.k8s.extension.io
+  resources:
+  - jcms/status
+  verbs:
+  - get
+  - patch
+  - update
