@@ -19,7 +19,7 @@
 - kv store: etcd
 
 
-### CustomResource JCM SPEC
+### CustomResource JCM Spec
 
 ```yaml
 ```
