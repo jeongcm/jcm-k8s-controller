@@ -1,0 +1,6 @@
+domain: jcm.k8s.extension.io
+layout:
+- go.kubebuilder.io/v3
+projectName: jcm-k8s-controller
+repo: jcm.k8s.extension.io/jcm-k8s-controller
+version: "3"
