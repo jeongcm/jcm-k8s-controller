@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: jcm-k8s-controller
 repo: jcm.k8s.extension.io/jcm-k8s-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: jcm.k8s.extension.io
+  group: jcm.k8s.extension.io
+  kind: Jcm
+  path: jcm.k8s.extension.io/jcm-k8s-controller/api/v1beta1
+  version: v1beta1
 version: "3"

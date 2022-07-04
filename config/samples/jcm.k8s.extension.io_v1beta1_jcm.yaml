@@ -1,0 +1,6 @@
+apiVersion: jcm.k8s.extension.io.jcm.k8s.extension.io/v1beta1
+kind: Jcm
+metadata:
+  name: jcm-sample
+spec:
+  # TODO(user): Add fields here
