@@ -6,7 +6,8 @@
 
 - jcm_k8s_controller watch custrom resource which name is jcm.
 
-- jcm will get resources(deployments, replicaSet, pods, configMap, sercret...) informations, and stored in store interface.(ex. kv store, or database)
+- jcm will get resources(deployments, replicaSet, pods, configMap, sercret...) informations which name start jcm(ex jcm_deployment),
+  and stored in store interface.(ex. kv store, or database)
   
 
 ### JCM_K8S_CONTROLLER environment
@@ -16,3 +17,9 @@
 - golang version: 1.16
 - db: cockroach db
 - kv store: etcd
+
+
+### CustomResource JCM SPEC
+
+```yaml
+```
