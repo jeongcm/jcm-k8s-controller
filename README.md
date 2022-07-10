@@ -28,8 +28,6 @@ type JcmSpec struct {
 
 // JcmStatus defines the observed state of Jcm
 type JcmStatus struct {
-	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
-	// Important: Run "make" to regenerate code after modifying this file
 	Phase JcmPhase `json:"phase,omitempty"`
 
 	Condition []JcmCondition `json:"conditions,omitempty"`
